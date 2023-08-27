@@ -1,9 +1,9 @@
 #include "main.h"
 #include <stdio.h>
 /**
- *main - testing a function that prints an integer if positive or negative
+ *positive_or_negative - function that prints integer if positive or negative
  *
- * Return: 0 (success)
+ *@i: the integer
  */
 void positive_or_negative(int i)
 {
@@ -16,7 +16,7 @@ void positive_or_negative(int i)
 	{
 		printf("%d is negative\n", i);
 	}
-	else 
+	else
 	{
 		printf("%d is zero\n", i);
 	}
