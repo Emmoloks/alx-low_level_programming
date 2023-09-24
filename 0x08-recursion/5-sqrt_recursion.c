@@ -7,18 +7,18 @@
  */
 int _sqrt_finder(int n, int digit)
 {
-        if (digit * digit == n)
-        {
-                return (digit);
-        }
-        else if (digit * digit > n)
-        {
-                return (-1);
-        }
-        else
-        {
-                return (_sqrt_finder(n, digit + 1));
-        }
+	if (digit * digit == n)
+	{
+		return (digit);
+	}
+	else if (digit * digit > n)
+	{
+		return (-1);
+	}
+	else
+	{
+		return (_sqrt_finder(n, digit + 1));
+	}
 }
 
 /**
