@@ -6,17 +6,15 @@
  */
 int _strlen(char *s)
 {
-	int length = 0;
-
-	while (*s)
+	if (*s == '\0')
 	{
-		length++;
-		s++;
+		return (0);
 	}
-	return (length);
+	return (1 + _strlen(s + 1));
 }
 /**
  * pal_recursive - checks if is palindrome
+ * @s: string
  * @back: index of back character
  * @front: index of front character
  * Return: 1 if success else 0
