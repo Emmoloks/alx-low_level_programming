@@ -12,6 +12,10 @@ int _sqrt_recursion(int n);
 int get_sqrt(int n, int guess);
 int is_prime_number(int n);
 int prime_finder(int n, int divider);
+int is_palindrome(char *s);
+int wildcmp(char *s1, char *s2);
+int recursive_length(char *s);
+int find_palindrome(char *s, int start, int end);
 
 
 
